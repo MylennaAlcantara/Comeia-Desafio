@@ -15,7 +15,7 @@ function App() {
       </nav>
       </header>
       <hr />
-
+      
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/private" element={<Private />}/>

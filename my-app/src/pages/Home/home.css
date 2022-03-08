@@ -1,0 +1,21 @@
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 90vh;
+}
+
+.login{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(185, 227, 233);
+}
+.slider{
+    background-color: aqua;
+}
