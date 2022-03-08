@@ -5,7 +5,7 @@
     height: 90vh;
 }
 
-.login{
+.sing-up{
     margin: auto;
     display: flex;
     align-items: center;
@@ -16,6 +16,17 @@
     width: 40vh;
     background-color: rgb(185, 227, 233);
 }
+
 .slider{
     background-color: aqua;
+}
+
+h2{
+    font-size: 14px;
+}
+
+.entrar{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
 }

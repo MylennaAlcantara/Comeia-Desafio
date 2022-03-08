@@ -6,3 +6,8 @@ nav{
   display: flex;
   justify-content: space-around;
 }
+
+.App-header{
+  background-color: aquamarine;
+  align-items: center;
+}

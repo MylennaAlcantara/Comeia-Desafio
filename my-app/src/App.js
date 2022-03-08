@@ -3,6 +3,7 @@ import './App.css';
 import {Route, Routes, Link} from 'react-router-dom';
 import {Home} from './pages/Home';
 import {Private} from './pages/Private';
+import {Register} from './pages/Resgister'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h1>Header do site</h1>
       <nav>
         <Link to = "/">Home</Link>
+        <Link to = "/SingUp">Sing Up</Link>
         <Link to ="/private">Private</Link>
       </nav>
       </header>
@@ -19,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/private" element={<Private />}/>
+        <Route path="/SingUp" element={<Register />}/>
       </Routes>
 
     </div>
