@@ -34,7 +34,7 @@ export const Home = () => {
             <div className="login">
                 <h1>Entrar</h1>
                 <form>
-                <label>Email:</label>
+                <label>E-mail:</label>
                 <input type="email" 
                   placeholder="Digite seu e-mail" 
                   title="E-mail exemplo (formato: xxx@xxx.xxx)" 

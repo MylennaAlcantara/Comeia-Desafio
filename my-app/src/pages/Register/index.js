@@ -28,30 +28,33 @@ export const Register = () => {
     return(
         <div className="wrapper">
             <div className="slider">
-                <MyGallery/>
-            </div>
-            <div className="sign-up">
-                <h1>Registrar</h1>
-                <form>
-                <label>Nome:</label>
-                <input type="text" placeholder='Digite seu nome' />
-                <br/>
-                <label>e-mail:</label>
-                <input type="email" 
-                    placeholder="Digite um e-mail" 
-                    title="E-mail exemplo (formato: xxx@xxx.xxx)" 
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
-                />
-                <br/>
-                <label>Senha:</label>
-                <input type="password" placeholder="Digite sua senha" />
-                <br/><br/>
-                <input type="submit" value="Registrar"/>
-                </form>
-                <div className='entrar'>
-                    <h2>Já está no Invision? </h2><Link to="/"> Entre.</Link>
+                <div className="col-1">
+                    <MyGallery/>
                 </div>
-                
+            </div>
+            <div className="col-2">
+                <div className="sign-up">
+                    <h1>Registrar</h1>
+                    <form>
+                    <label>Nome:</label>
+                    <input type="text" placeholder='Digite seu nome' />
+                    <br/>
+                    <label>E-mail:</label>
+                    <input type="email" 
+                        placeholder="Digite um e-mail" 
+                        title="E-mail exemplo (formato: xxx@xxx.xxx)" 
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                    />
+                    <br/>
+                    <label>Senha:</label>
+                    <input type="password" placeholder="Digite sua senha" />
+                    <br/><br/>
+                    <input type="submit" value="Registrar"/>
+                    </form>
+                    <div className='entrar'>
+                        <h2>Já está no Invision? </h2><Link to="/"> Entre.</Link>
+                    </div>
+                </div>
             </div>
         </div>
     )
