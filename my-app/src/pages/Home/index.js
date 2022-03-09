@@ -33,12 +33,19 @@ export const Home = () => {
             </div>
             <div className="login">
                 <h1>Entrar</h1>
+                <form>
                 <label>Email:</label>
-                <input type="email" placeholder="Digite seu e-mail" />
+                <input type="email" 
+                  placeholder="Digite seu e-mail" 
+                  title="E-mail exemplo (formato: xxx@xxx.xxx)" 
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                />
+                <br/>
                 <label>Senha:</label>
                 <input type="password" placeholder="Digite sua senha" />
-                <br/>
-                <button>Entrar</button>
+                <br/><br/>
+                <input type="submit" value="Entrar"/>
+                </form>
                 <div className='entrar'>
                     <h2>Novo no Invision? </h2><Link to="/SignUp"> Crie uma conta.</Link>
                 </div>

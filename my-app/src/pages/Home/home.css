@@ -11,8 +11,8 @@
     flex-direction: column;
     position: relative;
     justify-content: center;
-    height: 40vh;
-    width: 40vh;
+    height: 50%;
+    width: 50%;
     background-color: #571089;
     color: white;
     border-radius: 10px;

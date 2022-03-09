@@ -22,7 +22,7 @@
 }
 
 h1{
-    margin: 2px;
+    margin: 10px;
     font-size: 40px;
 }
 
@@ -46,4 +46,9 @@ h2{
     display: inline-flex;
     flex-direction: row;
     align-items: baseline;
+}
+
+form{
+    position: relative;
+  display:block;
 }
