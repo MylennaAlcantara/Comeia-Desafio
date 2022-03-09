@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {Route, Routes, Link} from 'react-router-dom';
 import {Home} from './pages/Home';
@@ -11,9 +10,9 @@ function App() {
       <header className="App-header">
       <h1>Invision</h1>
       <nav>
-        <Link to = "/">Home</Link>
-        <Link to = "/SingUp">Sing Up</Link>
-        <Link to ="/private">Private</Link>
+        <Link className="link" to = "/">Home</Link>
+        <Link className="link" to = "/SingUp">Sing Up</Link>
+        <Link className="link" to ="/private">Private</Link>
       </nav>
       </header>
       <hr />

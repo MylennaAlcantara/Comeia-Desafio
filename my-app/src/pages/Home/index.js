@@ -7,16 +7,16 @@ import React, { Component } from 'react';
 export const Home = () => {
     const images = [
         {
-            original: 'https://picsum.photos/id/1018/1000/600/',
-            thumbnail: 'https://picsum.photos/id/1018/250/150/',
+            original: 'https://cdn.alsacreations.net/xmedia/doc/full/1524132051-invisionstudio-view.png',
+            thumbnail: 'https://cdn.alsacreations.net/xmedia/doc/full/1524132051-invisionstudio-view.png',
           },
           {
-            original: 'https://picsum.photos/id/1015/1000/600/',
-            thumbnail: 'https://picsum.photos/id/1015/250/150/',
+            original: 'https://s3.amazonaws.com/www-assets.invisionapp.com/uploads/2018/07/studio-fb.png',
+            thumbnail: 'https://s3.amazonaws.com/www-assets.invisionapp.com/uploads/2018/07/studio-fb.png',
           },
           {
-            original: 'https://picsum.photos/id/1019/1000/600/',
-            thumbnail: 'https://picsum.photos/id/1019/250/150/',
+            original: 'https://i.ytimg.com/vi/YXNk4gQCPSY/maxresdefault.jpg',
+            thumbnail: 'https://i.ytimg.com/vi/YXNk4gQCPSY/maxresdefault.jpg',
           },
       ];
       

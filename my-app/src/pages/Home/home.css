@@ -17,6 +17,14 @@
 }
 
 .slider{
-    background-color: aqua;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    height: 80vh;
+    width: 80vh;
+    background-color: inherit;
 }
 
