@@ -15,7 +15,6 @@ function App() {
         <Link className="link" to ="/private">Private</Link>
       </nav>
       </header>
-      <hr />
       
       <Routes>
         <Route path="/" element={<Home />}/>
