@@ -1,11 +1,36 @@
 import { Link } from 'react-router-dom';
 import './register.css'
+import ImageGallery from 'react-image-gallery';
+import React, { Component } from 'react';
+
 
 export const Register = () => {
+    const images = [
+        {
+            original: 'https://cdn.alsacreations.net/xmedia/doc/full/1524132051-invisionstudio-view.png',
+            thumbnail: 'https://cdn.alsacreations.net/xmedia/doc/full/1524132051-invisionstudio-view.png',
+          },
+          {
+            original: 'https://s3.amazonaws.com/www-assets.invisionapp.com/uploads/2018/07/studio-fb.png',
+            thumbnail: 'https://s3.amazonaws.com/www-assets.invisionapp.com/uploads/2018/07/studio-fb.png',
+          },
+          {
+            original: 'https://i.ytimg.com/vi/YXNk4gQCPSY/maxresdefault.jpg',
+            thumbnail: 'https://i.ytimg.com/vi/YXNk4gQCPSY/maxresdefault.jpg',
+          },
+      ];
+      
+      class MyGallery extends React.Component {
+        render() {
+          return <ImageGallery items={images} />;
+        }
+      }
     return(
         <div className="wrapper">
-            <div className="slider"></div>
-            <div className="sing-up">
+            <div className="slider">
+                <MyGallery/>
+            </div>
+            <div className="sign-up">
                 <h1>Registrar</h1>
                 <label>Nome completo:</label>
                 <input type="text" placeholder='Digite seu nome' />

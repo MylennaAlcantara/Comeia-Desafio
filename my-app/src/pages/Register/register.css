@@ -5,7 +5,7 @@
     height: 90vh;
 }
 
-.sing-up{
+.sign-up{
     margin: auto;
     display: flex;
     align-items: center;
@@ -14,11 +14,17 @@
     justify-content: center;
     height: 40vh;
     width: 40vh;
-    background-color: rgb(185, 227, 233);
+    background-color: #571089;
+    color: white;
+}
+
+h1{
+    margin: 2px;
+    font-size: 40px;
 }
 
 .slider{
-    background-color: aqua;
+    
 }
 
 h2{

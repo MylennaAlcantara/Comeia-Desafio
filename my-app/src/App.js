@@ -11,7 +11,7 @@ function App() {
       <h1>Invision</h1>
       <nav>
         <Link className="link" to = "/">Home</Link>
-        <Link className="link" to = "/SingUp">Sing Up</Link>
+        <Link className="link" to = "/SignUp">Sign Up</Link>
         <Link className="link" to ="/private">Private</Link>
       </nav>
       </header>

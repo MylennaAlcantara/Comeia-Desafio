@@ -15,7 +15,6 @@ h1{
 }
 nav{
   display: flex;
-  color: #f0f;
   justify-content: space-evenly;
 }
 
