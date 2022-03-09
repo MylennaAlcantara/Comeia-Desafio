@@ -5,7 +5,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 function Slide (){
     const images = [
         {
-          original: 'C:\Users\Annelym\Desktop\Log-in-Sing-up\my-app\src\Slider\images\imagem.jpg',
+          original: URL('/src/pages/Slider/images/imagem.jpg'),
           thumbnail: '',
         },
         {

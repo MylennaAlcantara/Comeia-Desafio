@@ -7,16 +7,16 @@ import React, { Component } from 'react';
 export const Home = () => {
     const images = [
         {
-            original: 'C:\Users\Annelym\Desktop\Log-in-Sing-up\my-app\src\Slider\images\imagem.jpg',
-            thumbnail: '',
+            original: 'https://picsum.photos/id/1018/1000/600/',
+            thumbnail: 'https://picsum.photos/id/1018/250/150/',
           },
           {
-            original: 'C:\Users\Annelym\Desktop\Log-in-Sing-up\my-app\src\Slider\images\imagem2.jpg',
-            thumbnail: '',
+            original: 'https://picsum.photos/id/1015/1000/600/',
+            thumbnail: 'https://picsum.photos/id/1015/250/150/',
           },
           {
-            original: 'C:\Users\Annelym\Desktop\Log-in-Sing-up\my-app\src\Slider\images\imagem3.jpg',
-            thumbnail: '',
+            original: 'https://picsum.photos/id/1019/1000/600/',
+            thumbnail: 'https://picsum.photos/id/1019/250/150/',
           },
       ];
       

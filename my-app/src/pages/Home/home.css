@@ -15,22 +15,8 @@
     width: 40vh;
     background-color: rgb(185, 227, 233);
 }
+
 .slider{
     background-color: aqua;
 }
 
-@media screen and (max-width: 480px) {
-    .image-gallery{float:left; width: 90%; margin: 0 5%;}
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .image-gallery{float:left; width: 80%; margin: 0 10%;}
-}
-
-@media screen and (min-width: 769px) and (max-width: 1199px) {
-    .image-gallery{float:left; width: 42%; margin: 0 4%;}
-}
-
-@media screen and (min-width: 1200px) {
-    .image-gallery{float:left; width: 36%; margin: 0 7%;}
-}
