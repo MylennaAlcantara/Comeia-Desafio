@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Header do site</h1>
+      <h1>Invision</h1>
       <nav>
         <Link to = "/">Home</Link>
         <Link to = "/SingUp">Sing Up</Link>
