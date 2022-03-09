@@ -2,7 +2,9 @@
 .wrapper{
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 90vh;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .sign-up{
@@ -12,10 +14,11 @@
     flex-direction: column;
     position: relative;
     justify-content: center;
-    height: 40vh;
-    width: 40vh;
+    height: 50%;
+    width: 50%;
     background-color: #571089;
     color: white;
+    border-radius: 10px;
 }
 
 h1{
@@ -24,7 +27,15 @@ h1{
 }
 
 .slider{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+
 }
 
 h2{

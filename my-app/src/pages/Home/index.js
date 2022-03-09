@@ -40,7 +40,7 @@ export const Home = () => {
                 <br/>
                 <button>Entrar</button>
                 <div className='entrar'>
-                    <h2>Novo no Invision? </h2><Link to="/SingUp"> Crie uma conta.</Link>
+                    <h2>Novo no Invision? </h2><Link to="/SignUp"> Crie uma conta.</Link>
                 </div>
             </div>
         </div>

@@ -15,9 +15,11 @@
     width: 40vh;
     background-color: #571089;
     color: white;
+    border-radius: 10px;
 }
 a{
-    color:black;
+    margin-left: 5px;
+    color: white;
 }
 
 .slider{

@@ -7,6 +7,8 @@
 h1{
   border: solid 2px black;
   font-size: 40px;
+  background-color: #822FAF;
+  border-radius: 15px;
 }
 .link{
   color: white;
