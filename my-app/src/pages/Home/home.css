@@ -1,14 +1,13 @@
 .wrapper{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100% 100%;
-    height: 100%;
-    width: 100%;
     grid-template-areas: 
-        "slider login"
-        "slider login"
+        "slider sign-up"
     ;
+    align-items: center;
+    flex-direction: row;
     justify-content: center;
+    display: flex;
     grid-column-gap: 10px;
     grid-row-gap: 1em;
 }
@@ -51,40 +50,12 @@ a{
     flex-direction: column;
     position: relative;
     justify-content: center;
-    height: 80vh;
-    width: 80vh;
+    height: 50%;
+    width: 50%;
     grid-area: slider;
 }
 
-input{
-    width: 100%;
-    height: 45px;
-    margin-top: .7em;
-    border-radius: 10px;
-    border-color: 1px solid #ccc;
-    background: #f8f8f8;
-    color: #000;
-    font-size: 1em;
-}
 
-::placeholder{
-    color: #c5c5c5;
-}
 
-.submit{
-    float: right;
-    height: 50px;
-    padding: 1em 3em;
-    background: #ddd;
-    border: 1px solid #c4c4c4;
-    font-size: 1.2em;
-    transition: .3s;
-}
-
-.submit:hover{
-    background: #f45762;
-    color: #fff;
-    border: 1px solid #000;
-}
 
 

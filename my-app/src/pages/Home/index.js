@@ -6,19 +6,12 @@ import React, { Component } from 'react';
 
 export const Home = () => {
     const images = [
-        {
-            original: 'https://cdn.alsacreations.net/xmedia/doc/full/1524132051-invisionstudio-view.png',
-            thumbnail: 'https://cdn.alsacreations.net/xmedia/doc/full/1524132051-invisionstudio-view.png',
-          },
-          {
-            original: 'https://s3.amazonaws.com/www-assets.invisionapp.com/uploads/2018/07/studio-fb.png',
-            thumbnail: 'https://s3.amazonaws.com/www-assets.invisionapp.com/uploads/2018/07/studio-fb.png',
-          },
-          {
-            original: 'https://i.ytimg.com/vi/YXNk4gQCPSY/maxresdefault.jpg',
-            thumbnail: 'https://i.ytimg.com/vi/YXNk4gQCPSY/maxresdefault.jpg',
-          },
-      ];
+      {
+        original: 'https://public-v2links.adobecc.com/733508c5-4bfb-4dee-62c1-b3188a9bba84/component?params=component_id%3Aaa114763-6939-495e-8939-0dd2f542a9cc&params=version%3A0&token=1647009685_da39a3ee_98f4b8fdb7c015a94f6cd322698a7d567487895d&api_key=CometServer1',
+        thumbnail: '',
+      },
+      
+  ];
       
       class MyGallery extends React.Component {
         render() {

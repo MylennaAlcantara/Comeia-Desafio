@@ -7,15 +7,7 @@ import {Register} from './pages/Register'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <h1>Invision</h1>
-      <nav>
-        <Link className="link" to = "/">Home</Link>
-        <Link className="link" to = "/SignUp">Sign Up</Link>
-        <Link className="link" to ="/private">Private</Link>
-      </nav>
-      </header>
-      
+    
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/private" element={<Private />}/>
