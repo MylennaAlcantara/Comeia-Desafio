@@ -25,7 +25,8 @@ export const Home = () => {
                 <MyGallery/>
             </div>
             <div className="login">
-                <h1>Entrar</h1>
+                <div className='invision'>Invision</div>
+                <div className='welcome'>Welcome to Invision</div>
                 <form>
                 <label>E-mail:</label>
                 <input type="email" 

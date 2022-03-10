@@ -180,9 +180,10 @@ input{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     top: 663px;
     left: 1432px;
-    width: 100%;
+    width: 356px;
     height: 18px;
     text-align: left;
     font: normal normal normal 14px/18px Muli;
@@ -192,7 +193,7 @@ input{
 }
 hr{
 
-    color: #000000;
+    color: #707070;
     top: 663px;
     left: 1262px;
     width: 356px;
