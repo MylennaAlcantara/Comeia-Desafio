@@ -44,7 +44,7 @@ export const Home = () => {
                 <label>Senha:</label>
                 <input type="password" placeholder="Digite sua senha" />
                 <br/><br/>
-                <input type="submit" value="Entrar"/>
+                <input className="submit" type="submit" value="Entrar"/>
                 </form>
                 <div className='entrar'>
                     <h2>Novo no Invision? </h2><Link to="/SignUp"> Crie uma conta.</Link>
