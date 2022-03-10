@@ -1,10 +1,30 @@
 .wrapper{
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 90vh;
-    
+    height: 100%;
+    width: 100%;
+    grid-template-areas: 
+        "slider login"
+        "slider login"
+    ;
+    justify-content: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
 }
 
+@media only screen and (max-width: 550px) { 
+    .wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: 
+        "slider"
+        "login"
+        ;
+        justify-content: center;
+        grid-column-gap: 10px;
+        grid-row-gap: 1em;
+    }
+}
 .login{
     margin: auto;
     display: flex;
@@ -32,6 +52,5 @@ a{
     justify-content: center;
     height: 80vh;
     width: 80vh;
-    
 }
 

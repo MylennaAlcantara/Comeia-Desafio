@@ -28,11 +28,8 @@ export const Register = () => {
     return(
         <div className="wrapper">
             <div className="slider">
-                <div className="col-1">
                     <MyGallery/>
-                </div>
             </div>
-            <div className="col-2">
                 <div className="sign-up">
                     <h1>Registrar</h1>
                     <form>
@@ -56,6 +53,5 @@ export const Register = () => {
                     </div>
                 </div>
             </div>
-        </div>
     )
 };

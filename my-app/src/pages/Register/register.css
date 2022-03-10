@@ -1,26 +1,30 @@
-*{
-    box-sizing: border-box;
-}
-
-.row::after {
-content: "";
-clear: both;
-display: table;
-}
-
-[class*="col-"] {
-float: left;
-padding: 15px;
-}
- 
 .wrapper{
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    grid-template-areas: 
+        "slider sign-up"
+        "slider sign-up"
+    ;
     justify-content: center;
-    flex-wrap: wrap;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
 }
 
+@media only screen and (max-width: 550px) { 
+    .wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: 
+        "slider"
+        "sign-up"
+        ;
+        justify-content: center;
+        grid-column-gap: 10px;
+        grid-row-gap: 1em;
+    }
+}
 .sign-up{
     margin: auto;
     display: flex;
@@ -33,7 +37,7 @@ padding: 15px;
     background-color: #571089;
     color: white;
     border-radius: 10px;
-    float: left;
+    grid-area: sign-up;
 }
 
 h1{
@@ -48,10 +52,9 @@ h1{
     flex-direction: column;
     position: relative;
     justify-content: center;
-    height: 50%;
-    width: 50%;
-    float: left;
-
+    text-align: center;
+    height: 80%;
+    width: 80%;
 }
 
 h2{
