@@ -46,7 +46,7 @@ export const Register = () => {
                     <label>Senha:</label>
                     <input type="password" placeholder="Digite sua senha" />
                     <br/><br/>
-                    <input type="submit" value="Registrar"/>
+                    <input className="submit" type="submit" value="Registrar"/>
                     </form>
                     <div className='entrar'>
                         <h2>Já está no Invision? </h2><Link to="/"> Entre.</Link>

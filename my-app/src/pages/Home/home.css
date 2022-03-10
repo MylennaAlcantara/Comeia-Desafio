@@ -42,7 +42,7 @@
 }
 a{
     margin-left: 5px;
-    color: white;
+    color: black;
 }
 
 .slider{
@@ -56,4 +56,5 @@ a{
     width: 80vh;
     grid-area: slider;
 }
+
 
