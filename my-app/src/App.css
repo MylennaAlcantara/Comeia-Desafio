@@ -7,28 +7,3 @@
 *{
   margin: 0;
 }
-h1{
-  font-size: 40px;
-  font-family: "Roboto"
-}
-.link{
-  color: white;
-  margin: 5px;
-  text-decoration: none;
-
-}
-nav{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.App-header{
-  margin: 0;
-  border: solid 1px;
-  background-color: #47126B;
-  align-items: center;
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}

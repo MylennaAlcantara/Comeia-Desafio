@@ -2,28 +2,41 @@ import { Link } from 'react-router-dom';
 import './register.css'
 import ImageGallery from 'react-image-gallery';
 import React, { Component } from 'react';
+import '../Register/register.css'
+import Slide from '../Slider';
+import viewport from 'react-in-viewport'
 
 
-export const Register = () => {
+export const Register = () => {    
+    
     const images = [
         {
             original: 'https://public-v2links.adobecc.com/733508c5-4bfb-4dee-62c1-b3188a9bba84/component?params=component_id%3Aaa114763-6939-495e-8939-0dd2f542a9cc&params=version%3A0&token=1647009685_da39a3ee_98f4b8fdb7c015a94f6cd322698a7d567487895d&api_key=CometServer1',
-            thumbnail: '',
+            
+          },
+          {
+          original: 'https://public-v2links.adobecc.com/733508c5-4bfb-4dee-62c1-b3188a9bba84/component?params=component_id%3Aaa114763-6939-495e-8939-0dd2f542a9cc&params=version%3A0&token=1647009685_da39a3ee_98f4b8fdb7c015a94f6cd322698a7d567487895d&api_key=CometServer1',
+            
+          },
+          {
+          original: 'https://public-v2links.adobecc.com/733508c5-4bfb-4dee-62c1-b3188a9bba84/component?params=component_id%3Aaa114763-6939-495e-8939-0dd2f542a9cc&params=version%3A0&token=1647009685_da39a3ee_98f4b8fdb7c015a94f6cd322698a7d567487895d&api_key=CometServer1',
+            
           },
           
       ];
       
       class MyGallery extends React.Component {
         render() {
-          return <ImageGallery items={images} />;
+          return <ImageGallery items={images} showNav= {false} showFullscreenButton={false} showPlayButton={false} showBullets={true} autoPlay={true}  />;
         }
       }
     return(
+        
         <div className="wrapper">
             <div className="slider">
                     <MyGallery/>
             </div>
-                <div className="sign-up">
+            <div className="sign-up">
                     <div className='invision'>
                         Invision
                     </div>
@@ -62,7 +75,7 @@ export const Register = () => {
                     <div className='entrar'>
                         Already on Invision?<Link className='Link' to="/">Log in</Link>
                     </div>
-                </div>
             </div>
+        </div>
     )
 };

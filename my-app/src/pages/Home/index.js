@@ -1,8 +1,8 @@
 import '../Home/home.css';
 import {Link} from 'react-router-dom';
-import Slide from '../Slider';
 import ImageGallery from 'react-image-gallery';
 import React, { Component } from 'react';
+import Slide from '../Slider'
 
 export const Home = () => {
     const images = [
